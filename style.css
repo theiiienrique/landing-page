@@ -107,7 +107,7 @@ button {
 .info {
     background-color: #FFF;
     color: #1F2937;
-    padding: 64px 0px;
+    padding: 64px 0px 96px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -142,4 +142,25 @@ button {
     height: 150px;
     border-radius: 16px;
     margin-bottom: 8px;
+}
+
+.quote {
+    padding: 64px 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 64px 90px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+    padding-top: 32px;
 }
